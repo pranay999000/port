@@ -1,0 +1,84 @@
+.h3 {
+    font-family: "Courier New";
+    text-transform: capitalize;
+}
+
+.upload-file {
+    height: 0.1px;
+    width: 0.1px;
+    opacity: 0;
+    position: absolute;
+    background-color:#a6a6a6;
+}
+
+.upload-file + label {
+    width: 7em;
+    height: 1.5em;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 0.2em;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 0.2em;
+    font-family: "Courier New";
+    color: white;
+    background-color: #595959;
+    border-radius: 0.2em;
+    display: inline-block;
+}
+
+.page-in {
+    margin-left: 1em;
+    width: 11em;
+    height: 2.1em;
+    border: 0;
+    outline: transparent;
+    background: transparent;
+    border-bottom: 1px solid #111;
+    box-sizing: border-box;
+    border-radius: 0;
+    transition: none;
+    color: #111;    
+}
+
+.page-in :focus {
+    border-color: #111;
+    outline: transparent;
+    border: 0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      margin: 0; 
+  }
+
+  .button{
+    display: inline-block;
+	outline: none;
+    cursor: pointer;
+    font-family: "Courier New";
+	text-align: center;
+    text-decoration: none;
+    margin-left: 1em;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  }
+
+.formDiv {
+    margin-bottom: 7em;
+    margin-top: 4em;
+}

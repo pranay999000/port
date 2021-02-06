@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+}
+
+.pracItemIn {
+    width: 11em;
+    height: 2.3em;
+    border: 0;
+    outline: transparent;
+    background: transparent;
+    border-bottom: 1px solid beige;
+    box-sizing: border-box;
+    border-radius: 0;
+    transition: none;
+    color: beige;
+}
+
+.pracItemIn :focus {
+    border-color: #111;
+    outline: transparent;
+    border: 0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.pracNoButton {
+    background: transparent;
+    border: transparent;
+    font-size: 120%;
+    color: beige;
+}

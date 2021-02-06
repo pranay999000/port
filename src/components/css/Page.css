@@ -1,0 +1,68 @@
+.page {
+    height: calc(100% - 3em);
+    width: 77.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    margin-top: 3em;
+    overflow-y: scroll;
+}
+
+.pageForm {
+    text-align: center;
+    color: rgb(56, 55, 55);
+    font-size: 100%;
+}
+
+.pagelist {
+    margin-bottom: 2em;
+}
+
+.pageNotxt {
+    text-align: center;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.editcom {
+    float: right;
+    margin-right: 3.3em;
+    background: transparent;
+    border: transparent;
+    outline: 0;
+}
+
+.deletebtn {
+    float: left;
+    background: transparent;
+    border: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
+    font-size: 95%;
+    margin-left: 1em;
+    color: rgb(44, 43, 43);
+    margin-bottom: 0.3em;
+}
+
+.edittxt {
+    border: transparent;
+    outline: transparent;
+    background: transparent;
+    width: 7em;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 1px solid rgb(44, 43, 43);
+    font-size: 50%;
+    font-size: 95%;
+    text-align: center;
+}
+
+.editbtn {
+    border: transparent;
+    outline: transparent;
+    background: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 95%;
+    font-weight: 550;
+    color: rgb(44, 43, 43);
+}

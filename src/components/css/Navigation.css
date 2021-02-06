@@ -1,0 +1,50 @@
+.h4 {
+    list-style-type: none;
+    margin-top: 0.7em;
+    color: beige;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 130%;
+    text-align: center;
+    padding: 0;
+}
+
+.navlist {
+    list-style-type: '\00BB';
+    color: beige;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+.navli :hover {
+    cursor: context-menu;
+}
+
+.sidenav {
+    height: 100%;
+    width: 22.5%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-y: scroll;
+}
+
+.navInput {
+    width:13em;
+    height: 2.3em;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid beige;
+    color: beige;
+}
+
+.navSubButton {
+    background: transparent;
+    border: transparent;
+    font-size: 120%;
+    color: beige;
+}
