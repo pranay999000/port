@@ -25,7 +25,7 @@ export default function PracItem({sub, setSub, setPrac}) {
         const nav = database.ref(`port/${branch}/${batch}/nav/${sub}`)
 
         nav.orderByChild('no').equalTo(practicalNumber).limitToFirst(1).once('value', snap => {
-            if(!snap.exists()){
+            if(!snap.exists() && practicalNumber){
                 const pracNav = {
                     from: sub,
                     no: practicalNumber
