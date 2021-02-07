@@ -23,7 +23,7 @@ export default function Navigation({setSub, setPrac}) {
         const subR = database.ref(`port/${branch}/${batch}/subs`)
 
         subR.orderByValue().equalTo(s).limitToFirst(1).once('value', snap => {
-            if(!snap.exists()){
+            if(!snap.exists() && s){
                 subR.push(s)
             }
         })
